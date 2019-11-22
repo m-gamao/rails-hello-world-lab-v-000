@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 end
 
-get '/hello_world' do
-   erb :hello_world
- end
+get '/' do 
+  erb :index
+end
