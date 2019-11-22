@@ -5,4 +5,5 @@ class ApplicationController < ActionController::Base
 end
 
 get '/hello_world' do
-erb
+   erb :hello_world
+ end
